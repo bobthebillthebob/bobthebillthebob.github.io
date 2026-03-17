@@ -1,47 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-body {background-color: rgb(183, 247, 255);}
-h1   {color: #00004e;}
-p1    {color: rgb(129, 15, 15);}
-p2    {color: rgb(43, 150, 37);}
-p3    {color: rgb(134, 0, 196);}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-
-<h1>square</h1>
-<p1>square yes</p1>
-<p2>hi hello noice</p2>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-<style> 
-div {
-  width: 100px;
-  height: 100px;
-  background: red;
-  position: relative;
-  animation: myfirst 10000s 4000;
-  animation-direction: normal;
-}
-
-@keyframes myfirst {
-  0%   {background: red; left: 0px; top: 0px;}
-  25%  {background: yellow; left: 200px; top: 0px;}
-  50%  {background: blue; left: 200px; top: 200px;}
-  75%  {background: green; left: 0px; top: 200px;}
-  100% {background: red; left: 0px; top: 0px;}
-}
-</style>
-</head>
-<body>
-<div></div>
-<p3>SQUARE</p3>
+    <h1>Rock Paper Scissors</h1>
+    <div class="score-container">
+        <strong>Player: <span id="player-score">0</span></strong>
+        <strong>Computer: <span id="computer-score">0</span></strong>
+    </div>
+    <div class="btn-container">
+        <button id="rock-btn">Rock</button>
+        <button id="paper-btn">Paper</button>
+        <button id="scissors-btn">Scissors</button>
+    </div>
+    <p id="results-msg">Make your move.</p>
 </body>
 </html>
