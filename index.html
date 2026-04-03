@@ -6781,34 +6781,8 @@
       }
     };
   </script>
-  <!-- ---------------------loadTimeData--------------------- -->
+  
   <script jstcache="0">
-  // Copyright (c) 2012 The Chromium Authors. All rights reserved.
-  // Use of this source code is governed by a BSD-style license that can be
-  // found in the LICENSE file.
-
-  /**
-   * @fileoverview This file defines a singleton which provides access to all data
-   * that is available as soon as the page's resources are loaded (before DOM
-   * content has finished loading). This data includes both localized strings and
-   * any data that is important to have ready from a very early stage (e.g. things
-   * that must be displayed right away).
-   *
-   * Note that loadTimeData is not guaranteed to be consistent between page
-   * refreshes (https://crbug.com/740629) and should not contain values that might
-   * change if the page is re-opened later.
-   */
-
-  // #import {assert} from './assert.m.js';
-  // #import {parseHtmlSubset} from './parse_html_subset.m.js';
-
-  /**
-   * @typedef {{
-   *   substitutions: (!Array<string>|undefined),
-   *   attrs: (!Array<string>|undefined),
-   *   tags: (!Array<string>|undefined),
-   * }}
-   */
    /* #export */ let SanitizeInnerHtmlOpts;
 
   // eslint-disable-next-line no-var
